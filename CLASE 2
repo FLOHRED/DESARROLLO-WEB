@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Clase 2</title>
+</head>
+<body>
+    <h1 class="titulo" style="color: green">Mi Primer pagina web</h1>
+    <h1>Mi Primer pagina web</h1>
+    <h3 class="titulo">Subtitulo</h3>
+    <h5 id="subtitulo">titulo h5</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+       Sint ratione reprehenderit, culpa, nulla consequuntur <br>
+       dignissimos temporibus cumque eius eveniet optio labore minus voluptate at omnis incidunt. Ad tempore recusandae, commodi quisquam impedit praesentium facilis autem quasi! Cumque necessitatibus quis ratione! Dignissimos enim at accusantium neque quod tempore, totam similique nemo explicabo reiciendis rem voluptate eveniet placeat doloremque fugiat error aut!</p>
+    <table>
+        <th>columna 1</th>
+        <th>columna 2</th>
+        <th>columna 3</th>
+        <tr>
+            <td>celda 1</td>
+            <td>celda 2</td>
+            <td>celda 3</td>
+        </tr>
+        <tr>
+        <td>celda 4</td>
+        <td class="titulo">celda 5</td>
+        <td>celda 6</td>
+    </tr>
+    </table>
+</body>
+</html>
+css:
+css  h1 {
+    color: blue;
+    text-align: center;
+}
+
+.titulo {
+    background-color: aquamarine;
+    color: red;
+}
+#subtitulo{
+    color: yellow;
+    font-size: 60px;
+}
